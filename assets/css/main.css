@@ -550,6 +550,7 @@
 				position: relative;
 				top: 0;
 				width: 5.35em;
+				margin-bottom: 5rem;
 			}
 
 				#header nav li:nth-child(1) {
@@ -635,9 +636,9 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					/*border: solid 1px #fff;*/
 					display: block;
-					font-size: 1.75em;
+					font-size: 2em;
 					height: 2.5em;
 					line-height: 2.5em;
 					position: relative;
@@ -689,7 +690,6 @@
 	/* Particles */
 	#particles-js {
 		position: relative;
-		z-index: 100;
 		height: 60%;
 		width: 100%;
 	}
@@ -945,6 +945,14 @@
 		}
 
 	/* Header */
+		#header nav li {
+			margin-bottom: 0;
+		}
+
+		#header nav a:before {
+			border: solid 1px #fff;
+			font-size: 1.75em;
+		}
 
 		#header h1 {
 			font-size: 2.5em;
@@ -969,7 +977,6 @@
 		/* Particles */
 		#particles-js {
 			position: relative;
-			z-index: 100;
 			height: 85%;
 			width: 100%;
 		}
