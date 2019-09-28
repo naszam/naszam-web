@@ -18,7 +18,7 @@
 	<body class="loading">
 		<div id="wrapper">
 			<div id="bg"></div>
-			<div id="overlay"></div>
+			<div id="particles-js"></div>
 			<div id="main">
 
 				<!-- Header -->
@@ -46,10 +46,16 @@
 			</div>
 		</div>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/particles.min.js"></script>
 		<script>
-			window.onload = function() { document.body.className = ''; }
+			window.onload = function() { 
+				document.body.className = '';
+			}
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
+
+			/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+			particlesJS.load('particles-js', 'assets/js/config/particles.json');
 		</script>
 	</body>
 </html>
