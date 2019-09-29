@@ -1,1 +1,1 @@
-> Personal Biz Page
+> Personal Page
