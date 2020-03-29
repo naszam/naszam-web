@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nazzarenomassari.com
+Token: cb5147d65d0106f681b1e811aee148a2edad75b210ef59a34982f46de4926a86
