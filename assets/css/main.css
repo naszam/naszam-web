@@ -568,7 +568,6 @@ a:hover {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   border-radius: 100%;
-  border: solid 1px #fff;
   display: block;
   font-size: 1.75em;
   height: 2.5em;
@@ -834,6 +833,9 @@ a:hover {
   #header nav {
     font-size: 1em;
   }
+  #header nav a:before {
+    border: solid 1px #fff;
+  }
   #header nav a:hover {
     font-size: 1em;
   }
@@ -910,3 +912,5 @@ a:hover {
     padding: 0 1em;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
