@@ -150,6 +150,14 @@ a:hover {
   width: 100%;
 }
 
+/* Particles */
+#particles-js {
+  position: relative;
+  z-index: 100;
+  height: 60%;
+  width: 100%;
+}
+
 /* BG */
 #bg {
   -moz-animation: bg 60s linear infinite;
